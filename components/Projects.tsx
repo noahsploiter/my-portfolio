@@ -9,7 +9,7 @@ type Props = {
 
 function Projects({ projects }: Props) {
   return (
-    <div>
+    <div className="">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -27,7 +27,7 @@ function Projects({ projects }: Props) {
               className="w-screen flex-shrink-0 snap-center flex flex-col space-y-2 items-center justify-center pt-[70px] md:p-44 h-screen"
             >
               <motion.img
-                className="rounded-sm object-contain xl:w-[300px] xl:h-[300px] w-[200px] h-[200px] mt-[120px]"
+                className="rounded-lg object-contain xl:w-[350px] xl:h-[300px] w-[200px] h-[200px] mt-[120px] bg-white"
                 initial={{
                   opacity: 0,
                 }}
@@ -66,9 +66,11 @@ function Projects({ projects }: Props) {
                     rel="noreferrer noopener"
                     target="_blank"
                   >
-                    <h4 className="border border-[#205fb1] flex justify-center rounded-md h-[40px] items-center text-blue-600">
-                      Check out the project
-                    </h4>
+                    <div className="flex justify-center">
+                      <h4 className="border border-[#205fb1] flex justify-center rounded-md h-[40px] items-center text-blue-600 w-[220px]">
+                        Check out the project
+                      </h4>
+                    </div>
                   </a>
                 </p>
               </div>
