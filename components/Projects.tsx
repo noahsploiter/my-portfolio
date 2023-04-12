@@ -38,8 +38,8 @@ function Projects({ projects }: Props) {
                 alt=""
               />
 
-              <div className="space-y-5 px-0 md:px-10 max-w-6xl">
-                <h4 className="text-4xl font-semibold text-center">
+              <div className="space-y-5 px-0 md:px-10 max-w-4xl">
+                <h4 className="text-3xl font-semibold text-center">
                   <span className="">
                     {i + 1} of {projects.length}:
                   </span>{" "}
