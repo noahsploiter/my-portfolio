@@ -33,6 +33,7 @@ function About({ pageInfo }: Props) {
         viewport={{ once: true }}
         src={urlFor(pageInfo?.profilePic).url()}
         className="-mb-20 md:mb-0 flex-shrink-0 w-[90px] h-[90px] rounded-full object-cover md:rounded-lg md:w-64 md:h-64 xl:w-[400px] xl:h-[400px] mt-10"
+        alt="Ethiopian Software Engineer"
       />
 
       <div className="space-y-10 px-0 md:px-10">

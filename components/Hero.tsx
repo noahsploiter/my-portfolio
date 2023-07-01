@@ -21,6 +21,7 @@ export default function Hero({ pageInfo }: Props) {
       <img
         className="relative rounded-full h-[80px] w-[80px] mx-auto object-cover"
         src={urlFor(pageInfo?.heroImage).url()}
+        alt="Noah Ethiopian Software Engineer"
       />
 
       <div className="z-20">

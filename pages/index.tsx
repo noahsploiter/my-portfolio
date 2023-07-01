@@ -69,7 +69,7 @@ const Home = ({ pageInfo, experiences, skills, projects, socials }: Props) => {
             <img
               className="h-7 w-7 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
               src={urlFor(pageInfo?.heroImage).url()}
-              alt=""
+              alt="Noahsploit Ethiopian Software Engineer"
             />
           </div>
         </footer>
